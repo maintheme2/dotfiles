@@ -11,7 +11,7 @@ super + r
 
 # browser 
 super + b
-	firefox
+	firefox	
 
 # flameshot
 Print
