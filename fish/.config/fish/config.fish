@@ -1,6 +1,8 @@
 if status is-interactive
 	alias ls "lsd -1"
+	alias hx "helix"
 	alias lt "ls --tree"
+	alias icat="kitty +kitten icat"
 	set fish_greeting ""
 	alias hdmi "xrandr --output HDMI-1 --mode 1920x1080"
 end
