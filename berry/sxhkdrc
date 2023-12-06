@@ -21,7 +21,7 @@ alt + t
 	telegram-desktop
 
 # emulate lock screen with sddm theme preview
-shift + l
+alt + l
 	sddm-greeter --test-mode --theme /usr/share/sddm/themes/clairvoyance/
 
 # make sxhkd reload its configuration files:
