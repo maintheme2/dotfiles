@@ -16,9 +16,9 @@ foo "awesome"
 foo "neofetch"
 foo "sddm"
 
-# if [ -d $USER_DIR/.config/Code/User/ ]; then
-#   ln -sf $DOTS_DIR/configs/vscode/settings.json $USER_DIR/.config/Code/User/
-# fi
+if [ -d $USER_DIR/.config/Code/User/ ]; then
+  ln -sf $DOTS_DIR/configs/vscode/settings.json $USER_DIR/.config/Code/User/
+fi
 
 ln -sf $DOTS_DIR/x11/user-dirs.dirs $USER_DIR/.config/
 ln -sf $DOTS_DIR/x11/.xinitrc $USER_DIR/
