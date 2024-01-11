@@ -12,7 +12,7 @@ foo "rofi"
 foo "kitty"
 foo "fish"
 foo "helix"
-foo "awesome"
+foo "berry"
 foo "neofetch"
 foo "sddm"
 
@@ -22,6 +22,7 @@ fi
 
 ln -sf $DOTS_DIR/x11/user-dirs.dirs $USER_DIR/.config/
 ln -sf $DOTS_DIR/x11/.xinitrc $USER_DIR/
+ln -sf $DOTS_DIR/x11/libinput-gestures.conf $USER_DIR/.config
 
 cp -f $DOTS_DIR/x11/30-touchpad.conf /etc/X11/xorg.conf.d/
 cp -f $DOTS_DIR/x11/00-keyboard.conf /etc/X11/xorg.conf.d/
