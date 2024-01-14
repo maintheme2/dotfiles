@@ -6,5 +6,5 @@ if status is-interactive
 	set fish_greeting ""
 end
 
-# cat ~/.cache/wal/sequences &
+cat ~/.cache/wal/sequences &
 # source ~/.cache/wal/colors.fish
