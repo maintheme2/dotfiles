@@ -36,5 +36,5 @@ berryc title_height 1
 
 libinput-gestures-setup autostart start
 ~/.fehbg &
-wal -ni /home/maintheme/style/theme/blue-r33.jpg
-polybar &
+# wal -ni /home/maintheme/style/theme/blue-r33.jpg
+# polybar &
