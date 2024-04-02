@@ -15,6 +15,7 @@ foo "helix"
 foo "berry"
 foo "neofetch"
 foo "sddm"
+foo "polybar"
 
 if [ -d $USER_DIR/.config/Code/User/ ]; then
   ln -sf $DOTS_DIR/configs/vscode/settings.json $USER_DIR/.config/Code/User/
@@ -27,3 +28,6 @@ ln -sf $DOTS_DIR/x11/libinput-gestures.conf $USER_DIR/.config
 cp -f $DOTS_DIR/x11/30-touchpad.conf /etc/X11/xorg.conf.d/
 cp -f $DOTS_DIR/x11/00-keyboard.conf /etc/X11/xorg.conf.d/
 cp -f $DOTS_DIR/x11/vconsole.conf /etc/
+# cp -r $DOTS_DIR/configs/sddm/clairvoyance /usr/share/sddm/themes/
+# cp -f $DOTS_DIR/configs/sddm/etc/sddm.conf /etc/
+# cp -f $DOTS_DIR/configs/sddm/faces/* /usr/share/sddm/faces/

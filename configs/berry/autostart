@@ -4,6 +4,7 @@ xset r rate 210 40
 
 #autostart flameshot
 flameshot &
+parcellite &
 
 # Set decoration geometry
 berryc border_width       0
@@ -37,4 +38,4 @@ berryc title_height 1
 libinput-gestures-setup autostart start
 ~/.fehbg &
 # wal -ni /home/maintheme/style/theme/blue-r33.jpg
-# polybar &
+polybar &

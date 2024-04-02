@@ -94,9 +94,17 @@
     "codeium.enableConfig": {
         "*": true
     },
-    "workbench.colorTheme": "Vitesse Dark",
+    "workbench.colorTheme": "Vitesse Dark Soft",
     "window.title": "${rootName}",
     "workbench.iconTheme": "icons",
-    "workbench.sideBar.location": "right",
+    "git.ignoreLegacyWarning": true,
+    "extensions.ignoreRecommendations": true,
+    "workbench.editor.showTabs": "single",
+    "jupyter.askForKernelRestart": false,
+    "editor.unicodeHighlight.allowedLocales": {
+        "ru": true
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.startupEditor": "none",
     "window.zoomLevel": 1
 }

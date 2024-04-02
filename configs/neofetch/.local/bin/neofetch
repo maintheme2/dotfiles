@@ -1766,6 +1766,7 @@ get_shell() {
     shell=${shell/xonsh\//xonsh }
     shell=${shell/options*}
     shell=${shell/\(*\)}
+    shell+=${shell}
 }
 
 get_de() {

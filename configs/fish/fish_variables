@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR AIRFLOW_HOME:/home/maintheme/work/\u043e\u0442\u0447\u0435\u0442\x2d\u043f\u043e\x2d\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044e\x2d\u0440\u0430\u0431\u043e\u0447\u0435\u0433\u043e\x2d\u0432\u0440\u0435\u043c\u0435\u043d\u0438/dev/airflow
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
