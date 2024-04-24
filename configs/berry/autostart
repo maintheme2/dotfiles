@@ -34,8 +34,7 @@ berryc title_height 1
 xset r rate 210 40 # set keyboard repeat rate
 libinput-gestures-setup autostart start # enable libinput gestures
 ~/.fehbg & # set wallpaper
-# wal -ni /home/maintheme/style/theme/blue-r33.jpg 
 polybar & # start polybar
-wal -R # restore theme
+wal -ni style/theme/ai-generated-sport-car.jpg # restore theme
 flameshot & # start flameshot
 parcellite & # start parcellite (for clipboard)
